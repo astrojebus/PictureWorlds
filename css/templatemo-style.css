@@ -831,7 +831,7 @@ address {
   content: '\f0d7';
 }
 
-/* Style the accordion panel. Note: hidden by default */
+/* Style the accordion panel. Note: hidden by default  */
 .panel {
   background-color: white;
   max-height: 0;
