@@ -1,2 +1,2 @@
 # PictureWorlds
-Repo for development of Picture Worlds website
+Repo for development of Picture Worlds website .
