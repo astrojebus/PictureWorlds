@@ -19,6 +19,97 @@ html {
   box-sizing: inherit;
 }
 
+.search
+{
+  padding: 5px;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -185,6 +276,9 @@ html {
   height: auto;
 }
 
+
+.img-fluid:hover {opacity: 0.7;}
+
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
@@ -204,7 +298,7 @@ p, address {
 /* Set width and height in JS */
 .placeholder {
   width: 100%;
-  min-height: 460px;
+  min-height: auto;
   background-color: #556E5B;
 }
 
@@ -217,7 +311,7 @@ p, address {
 }
 
 .parallax-window {
-  min-height: 460px;
+  min-height: 200px;
   background: transparent;
   position: relative;
 }
@@ -265,6 +359,7 @@ p, address {
 
 .tm-site-title {
   font-size: 2.2rem;
+  color: white;
   font-weight: 400;
   margin-bottom: 5px;
 }
@@ -462,6 +557,10 @@ p, address {
   align-self: flex-end;
 }
 
+footer
+{
+  background-color: black;
+}
 .tm-footer {
   padding: 25px 15px;
   margin-top: 40px;
@@ -767,7 +866,7 @@ address {
 }
 
 .tm-accordion {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .accordion {
@@ -835,7 +934,6 @@ address {
 .panel {
   background-color: white;
   max-height: 0;
-  overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
