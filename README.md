@@ -12,3 +12,11 @@ AGB/Terms and Conditions: Jesus Bustos
 Privacy Policy : Jesus Bustos
 
 Impressum: Jesus Bustos
+
+Cars : Sepehr Fatemi
+
+Art : Sepehr Fatemi
+
+FAQ : Sepehr Fatemi
+
+Contact : Sepehr Fatemi
