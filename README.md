@@ -20,3 +20,11 @@ Art : Sepehr Fatemi
 FAQ : Sepehr Fatemi
 
 Contact : Sepehr Fatemi
+
+About: Galo Rosero
+
+Nature: Galo Rosero
+
+Cities: Galo Rosero
+
+Black and White: Galo Rosero
