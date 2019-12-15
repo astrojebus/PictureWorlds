@@ -1,0 +1,256 @@
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Picture World</title>
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+
+<body> 
+
+	<div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" style="background-image: url('img/slider/1.jpg');">
+				<div class="r">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Picture Worlds</h1>
+							</div>
+						</div>
+						<nav class="col-md-8 col-12 tm-nav" style="background-color: red; padding: 10px;">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+								<li class="tm-nav-li"><a href="top.html" class="tm-nav-link">Top Pictures</a></li>
+								<li class="tm-nav-li"><a href="faq.html" class="tm-nav-link">FAQ</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+								<input  type="text" class="search" name="search" placeholder="Search..">
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+<BR>
+		<main>			
+			<div class="tm-paging-links">
+				<nav>
+					<ul>
+						<li class="tm-paging-item"><a href="index.html" class="tm-paging-link">TOP RATED</a></li>
+						<li class="tm-paging-item"><a href="nature.html" class="tm-paging-link ">NATURE</a></li>
+						<li class="tm-paging-item"><a href="cars.html" class="tm-paging-link">CARS</a></li>
+						<li class="tm-paging-item"><a href="cities.html" class="tm-paging-link active">CITIES</a></li>
+						<li class="tm-paging-item"><a href="bwhite.html" class="tm-paging-link">BLACK&WHITE</a></li>
+						<li class="tm-paging-item"><a href="art.html" class="tm-paging-link">ART</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Gallery -->
+			<div class="row tm-gallery">
+				<!-- gallery page 1 -->
+				<div id="tm-gallery-page-pizza" class="tm-gallery-page">
+					
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/1.jpg" id="myImg" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/2.jpg" id="myImg1" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/3.jpg" id="myImg2" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/4.jpg" id="myImg3" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/5.jpg" id="myImg4" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/6.jpg" id="myImg5" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/7.jpg" id="myImg6" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/9.jpg" id="myImg7" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="img/cities/8.jpg" id="myImg8" class="img-fluid tm-gallery-img" />
+						</figure>
+					</article>
+
+		
+			</div>
+			
+		</main>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg3");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg4");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg5");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg6");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg7");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg8");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+	</main>
+
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2019 Picture Worlds| &nbsp;&nbsp; 
+			<a href="faq.html"> FAQs | &nbsp;&nbsp;</a>
+			<a href="policy.html"> Privacy Policy | &nbsp;&nbsp;</a>
+			<a href="impresum.html"> Impressum | &nbsp;&nbsp;</a>
+			<a href="agb.html"> AGB | &nbsp;&nbsp;</a>
+			<a href="" class="fa fa-facebook fa-lg"> | &nbsp;&nbsp;</a>
+			<a href="" class="fa fa-twitter fa-lg"> | &nbsp;&nbsp;</a>
+			<a href="" class="fa fa-instagram fa-lg"></a>
+            </footer>
+	</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</body>
+</html>
