@@ -1,3 +1,36 @@
+  @media screen and (max-width: 600px) {
+  .tm-nav-ul a {
+  }
+
+    .tm-nav .tm-nav-ul  {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+
+  }
+
+    .tm-nav .tm-nav-ul a {
+    display: block;
+    text-align: left;
+    width: 100%;
+    border: thick solid #ccc;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom:10px;
+  }
+  .search {
+    display: block;
+    text-align: left;
+    width: 94%;
+    border: thick solid #ccc;
+    margin: 0px auto;
+    font-size: 20px;
+}
+}
+
+.mySlides {display:none;}
+
 
 ul, nav, body, h1, h2, h4, h6, p, figure {
   margin: 0;
@@ -6,7 +39,6 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
 
 a, button { transition: all 0.3s ease; }
 
-/* Bootstrap grid system  */
 
 html {
   box-sizing: border-box;
