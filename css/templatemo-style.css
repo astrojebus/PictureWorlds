@@ -264,13 +264,13 @@ html {
 }
 
 .tm-btn-success {
-  background-color: #319966;
+  background-color: #19CEBB;
   color: white;
 }
 
 .tm-btn-success:hover,
 .tm-btn-success:focus {
-  background-color: #1d6e46;
+  background-color: #139a8b;
 }
 
 .tm-btn-danger {
